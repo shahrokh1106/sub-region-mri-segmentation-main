@@ -15,12 +15,12 @@ The following shows a sample slice of the dataset and its corresponding labels. 
 
 
 To get inference from the SAM model on the marmoset dataset, use SAMmain.py, where
-*nifti_image_path: is the path to the marmoset average mri dataset 
-*nifti_label_path: is the current atlas label for the mri dataset
-*offset: there is an offset of 10000 between the lebel values of the left and right brian hemispheres
-*ID: is thw id or lable value of the ROI
-*device: If GPU is available
-*sam_model_type: is the SAM model type
-*sam_checkpoint: is the address of the corresponding SAM pretrianed model
-*mode_axis: is the selected axis for slicing ("axial", "coronal", "sagittal")
-*write_results: if true, after each run the results will be saved in the current directoy as a nifti image data
+* nifti_image_path: is the path to the marmoset average mri dataset 
+* nifti_label_path: is the current atlas label for the mri dataset
+* offset: there is an offset of 10000 between the lebel values of the left and right brian hemispheres
+* ID: is thw id or lable value of the ROI
+* device: If GPU is available
+* sam_model_type: is the SAM model type
+* sam_checkpoint: is the address of the corresponding SAM pretrianed model
+* mode_axis: is the selected axis for slicing ("axial", "coronal", "sagittal")
+* write_results: if true, after each run the results will be saved in the current directoy as a nifti image data
