@@ -33,3 +33,6 @@ To get inference from the SAM model on the marmoset dataset, use SAMmain.py, whe
 * *write_results*: if true, after each run, the results will be saved in the current directory as a nifti image data
 
 More details can be found in the provided PDF. Here is the evaluation of the results for one of the selected ROIs
+![eval](https://github.com/shahrokh1106/sub-region-mri-segmentation-main/assets/44213732/3fb7325f-70bf-4b36-b519-935b083cbe7b)
+
+
