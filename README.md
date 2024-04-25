@@ -31,3 +31,5 @@ To get inference from the SAM model on the marmoset dataset, use SAMmain.py, whe
 * *offset*: there is an offset of 10000 between the label values of the left and right brian hemispheres
 * *ID*: is the id or label value of the ROI
 * *write_results*: if true, after each run, the results will be saved in the current directory as a nifti image data
+
+More details can be found in the provided PDF. Here is the evaluation of the results for one of the selected ROIs
